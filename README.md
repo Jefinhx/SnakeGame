@@ -15,7 +15,6 @@ O jogo será iniciado automaticamente.
 ## 🎮 Controles
 
 * **Setas Direcionais (↑, ↓, ←, →):** Movimentam a cobra pela tela.
-* **Barra de Espaço:** Pode ser usada para pausar ou reiniciar o jogo (verificar implementação).
 
 ## 🛠️ Estrutura dos Arquivos
 
