@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen" class="screen">
+        <h1>Snake Game</h1>
+        <button id="play-button">Jogar</button>
+        <button id="sound-button">Sound: ON</button>
+        <button id="exit-button">Sair</button>
+    </div>
+
+    <div id="game-screen" class="screen" style="display: none;">
+        <canvas id="game-canvas" width="400" height="400"></canvas>
+        <div class="score">Score: <span id="score">0</span></div>
+    </div>
+
+    <audio id="eat-sound" src="https://www.soundjay.com/buttons/sounds/button-3.mp3" preload="auto"></audio>
+    <audio id="gameover-sound" src="https://www.soundjay.com/misc/sounds/fail-buzzer-01.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
